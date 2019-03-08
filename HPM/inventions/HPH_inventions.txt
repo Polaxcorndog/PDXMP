@@ -1,0 +1,191 @@
+schrapnel_standard_design = {
+	limit = { steel_breech_loaded_artillery = 1 } #1870
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			invention = heavy_artillery
+		}
+		modifier = {
+			factor = 3
+			great_war_experience = 1
+		}
+	}
+	effect = {
+		artillery = {
+			attack = 1
+		}
+	}
+}
+
+barbed_wire_defense = {
+	limit = { deep_defense_system = 1 } #1870
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			invention = trench_systems
+		}
+		modifier = {
+			factor = 3
+			great_war_experience = 1
+		}
+	}
+	effect = {
+		infantry = {
+			defence = 0.5
+		}
+		guard = {
+			defence = 0.5
+		}
+		engineer = {
+			defence = 0.5
+		}
+		artillery = {
+			defence = 1
+		}
+		irregular = {
+			defence = 0.5
+		}
+	}
+}
+		
+helmet_mass_production = {
+	limit = { indirect_artillery_fire = 1 } #1900
+	chance = {
+		base = 2
+		modifier = {
+			factor = 1
+			advanced_metallurgy = 1
+		}
+		modifier = {
+			factor = 2
+			invention = schrapnel_standard_design
+		}
+		modifier = {
+			factor = 3
+			great_war_experience = 1
+		}
+	}
+	effect = {
+		soldier_to_pop_loss = 0.01
+		infantry = {
+			defence = 0.5
+		}
+		guard = {
+			defence = 0.5
+		}
+		engineer = {
+			defence = 0.5
+		}
+		irregular = {
+			defence = 0.5
+		}
+	}
+}
+
+camouflage_uniforms = {
+	limit = { infiltration = 1 } #1900
+	chance = {
+		base = 2
+		modifier = {
+			factor = 1.5
+			invention = machine_gun_armament
+		}
+		modifier = {
+			factor = 3
+			great_war_experience = 1
+		}
+	}
+	effect = {
+		soldier_to_pop_loss = 0.01
+	}
+}
+
+young_school_doctrine = {
+	limit = {
+		battleship_column_doctrine = 1 
+		tech_school = naval_tech_school
+	}
+	#news = no
+	chance = {
+		base = 10
+		modifier = {
+			factor = -10
+			NOT = { tech_school = naval_tech_school }
+		}
+		modifier = {
+			factor = -10
+			has_country_modifier = academic_confusion
+		}
+	}
+	effect = {
+		colonial_points = 100
+	}
+}
+
+fleet_in_being_doctrine = {
+	limit = {
+		raider_group_doctrine = 1 
+		tech_school = naval_tech_school
+	}
+	#news = no
+	chance = {
+		base = 25
+		modifier = {
+			factor = -25
+			NOT = { tech_school = naval_tech_school }
+		}
+		modifier = {
+			factor = -25
+			has_country_modifier = academic_confusion
+		}
+	}
+	effect = {
+		colonial_points = 100
+	}
+}
+
+sea_power_doctrine = {
+	limit = {
+		blue_and_brown_water_schools = 1 
+		tech_school = naval_tech_school
+	}
+	#news = no
+	chance = {
+		base = 50
+		modifier = {
+			factor = -50
+			NOT = { tech_school = naval_tech_school }
+		}
+		modifier = {
+			factor = -50
+			has_country_modifier = academic_confusion
+		}
+	}
+	effect = {
+		colonial_points = 100
+	}
+}
+
+neocolonialism_doctrine = {
+	limit = {
+		steel_steamers = 1 
+		tech_school = naval_tech_school
+	}
+	#news = no
+	chance = {
+		base = 80
+		modifier = {
+			factor = -80
+			NOT = { tech_school = naval_tech_school }
+		}
+		modifier = {
+			factor = -80
+			has_country_modifier = academic_confusion
+		}
+	}
+	effect = {
+		colonial_points = 100
+	}
+}
