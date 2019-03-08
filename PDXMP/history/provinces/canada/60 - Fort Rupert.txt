@@ -2,7 +2,8 @@ owner = USA
 controller = USA
 add_core = USA
 trade_goods = tobacco
-life_rating = 35
+life_rating = 36
+terrain = richmond
 railroad = 1
 
 party_loyalty = {
