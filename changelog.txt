@@ -1,0 +1,72 @@
+HPFMMPE v0.9
+
+BASE
+- Based on HPM 0.4
+- Merged HFM map and graphics
+- Merged HFM terrain
+- Merged some HFM flavor decisions
+- Merged some HFM flavor events
+- Merged PDXMP balance features
+- New loading screens
+
+GAMEPLAY
+- EIC spawning is now part of the base setup
+- EIC will send all its money to overlord
+- Sepoy rebellion reworked
+- New flavor event for Japan (kyoto imperial university)
+- New flavor event for USA (taconite mining)
+
+BALANCE
+- Uncivilized nations mine less efficiently
+- Iron rgo boosts from PDXMP mod reworked, now more effective
+- Removed bad RGO changes from HPM
+- Constitutional Monarchies cannot change parties without elections
+- NF for boosting party loyalty increased (0.03 to 0.10)
+- Healthcare and School reforms will increase pension level
+- Neglecting social spending now has negative triggered modifier
+- Trade policies changed: no more 100% tariffs
+- AI has triggered modifier buff, slight bonuses for various modifiers
+- Education triggered modifiers to curve literacy growth rate
+- Intellectuals raise literacy slightly less
+- Intellectual NF cannot be used past 3% intellectuals
+- Intellectuals harder to promote in non-states
+- Biologism nerfed
+- Research point allocation changed: less from intellectuals, more from clerks
+- New triggered modifiers for urbanization: based on % of craftsmen/clerks
+- Higher urbanization increases input efficiency, slightly raises research
+- Research bonus from british raj and dutch indonesia lowered: no longer flat +1.0, now % modifier
+- Prussian General Staff reworked: split into 2 different modifiers
+- More dig in bonus from certain defensive techs
+- Engineers have more support and defense from techs
+- Guards, cavalry, tanks have higher discipline
+- Artillery, irregulars have less discipline
+- Cavalry flanks better
+- Leaders tend to live slightly longer
+- Negative traits for leaders reduced ( will never be worse than no leader )
+- Leaders cost 30 leadership (up from 20)
+- Officers offer slightly more leadership, slightly more required
+- Craftsmen and Clerks have small daily need for Steel, reduces steel overhead
+- Removed iron from all building and crafting process except for steel
+- More factories require lumber to build
+- War exhaustion reworked: new emphasis on import costs and overseas militancy
+- Japan and Italy unification small baby booms returned from HFM
+- Some HFM terrains have unique bonuses to ship repair or building speed, such as belfast and wilhelmshaven
+- New HFM terrain for Duluth
+- Less supply in provinces with no adjacent controlled provinces
+- Less supply in overseas provinces
+- Life Rating pop growth in overseas provinces reduced
+- Blockaded provinces have less supply and reduced RGO output
+- Provinces with nationalism (years of seperatism) have less supply
+- Upper house takes consciousness into account as well as militancy
+- Liberals vote for social reforms less
+- Socialists vote for liberal reforms less
+- Conservatives vote for reactionary reforms more
+- Artisans will starve to death less while they prioritise work over eating food
+- and other stuff
+
+FIXES
+- Removed instances of bugged pop growth on provincial level (always off by factor of 10)
+- Fixed EIC events
+- Capitalists daily needs massively reduced, now will have money leftover to invest after buying their daily 20 automobiles
+- Liberal economies are viable
+- New Zealand relocated; new graphical anomalies
