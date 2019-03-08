@@ -18,21 +18,32 @@ GAMEPLAY
 
 BALANCE
 - Uncivilized nations mine less efficiently
+	- 50% less efficiency and smaller mines
 - Iron rgo boosts from PDXMP mod reworked, now more effective
+	- increased throughput for flat iron production bonus
 - Removed bad RGO changes from HPM
 - Constitutional Monarchies cannot change parties without elections
-- NF for boosting party loyalty increased (0.03 to 0.10)
+- NF for boosting party loyalty increased (0.03 to 0.10) (pdxmp balance mod used 0.08)
 - Healthcare and School reforms will increase pension level
+	- advanced levels of the reforms from high admin/social spending also increase pension level
+	- these advanced levels also require higher spending than before
 - Neglecting social spending now has negative triggered modifier
+	- Small pop decline, lowered education, and negative ruling party support
 - Trade policies changed: no more 100% tariffs
+	- 50% max from protectionism, 25% max from free trade, trade laws still raise these up or down slightly
 - AI has triggered modifier buff, slight bonuses for various modifiers
+	- small bonuses for research, education, 10% higher minimum tax/tariff, more efficient taxes/tariffs
 - Education triggered modifiers to curve literacy growth rate
+	- starting with 50% literacy every 10% literacy gives -10% education efficiency, ie -30% at 70% literacy
+	- after 90% literacy there are 2 more levels to slow down 100% literacy
 - Intellectuals raise literacy slightly less
+	- intellectuals needed for max literacy growth raised from 4% to 6%
 - Intellectual NF cannot be used past 3% intellectuals
 - Intellectuals harder to promote in non-states
-- Biologism nerfed
+- Biologism nerfed, 50% boost down to 10%
 - Research point allocation changed: less from intellectuals, more from clerks
 - New triggered modifiers for urbanization: based on % of craftsmen/clerks
+	- low urbanisation can be achieved with 20% artisans, so city states like hamburg start with it
 - Higher urbanization increases input efficiency, slightly raises research
 - Research bonus from british raj and dutch indonesia lowered: no longer flat +1.0, now % modifier
 - Prussian General Staff reworked: split into 2 different modifiers
@@ -43,12 +54,13 @@ BALANCE
 - Cavalry flanks better
 - Leaders tend to live slightly longer
 - Negative traits for leaders reduced ( will never be worse than no leader )
+	- negative dice rolls reduced or removed from most bad traits
 - Leaders cost 30 leadership (up from 20)
 - Officers offer slightly more leadership, slightly more required
 - Craftsmen and Clerks have small daily need for Steel, reduces steel overhead
 - Removed iron from all building and crafting process except for steel
 - More factories require lumber to build
-- War exhaustion reworked: new emphasis on import costs and overseas militancy
+- War exhaustion reworked: emphasis on import costs and overseas militancy, core consciousness
 - Japan and Italy unification small baby booms returned from HFM
 - Some HFM terrains have unique bonuses to ship repair or building speed, such as belfast and wilhelmshaven
 - New HFM terrain for Duluth
@@ -65,8 +77,11 @@ BALANCE
 - and other stuff
 
 FIXES
-- Removed instances of bugged pop growth on provincial level (always off by factor of 10)
+- Removed all instances of bugged pop growth on provincial level (always off by factor of 10)
+	- province level pop growth never more than 0.001, this lowest level results in actual growth of 0.010
+	- replaced with country wide growth or province life rating adjustments
 - Fixed EIC events
 - Capitalists daily needs massively reduced, now will have money leftover to invest after buying their daily 20 automobiles
 - Liberal economies are viable
+	- liberal policies buffed, better input efficiency and reduced import costs for free trade
 - New Zealand relocated; new graphical anomalies
