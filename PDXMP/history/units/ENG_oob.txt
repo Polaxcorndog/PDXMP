@@ -856,7 +856,7 @@ army = {
 
 army = {
 	name = "The Calcutta Army"
-	location = 1256
+	location = 1251
 	regiment = {
 		name= "1.10th Division"
 		type = infantry

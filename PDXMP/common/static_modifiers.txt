@@ -82,7 +82,8 @@ very_hard_ai = {
 overseas = {
 	assimilation_rate = -0.1
 	supply_limit = -2
-	local_RGO_throughput = -0.1
+	farm_rgo_eff = -0.1
+	mine_rgo_eff = -0.1
 	life_rating = -0.1
 }
 
