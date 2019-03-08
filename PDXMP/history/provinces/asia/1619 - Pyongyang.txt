@@ -1,0 +1,7 @@
+owner = KOR
+controller = KOR
+add_core = KOR
+trade_goods = grain
+life_rating = 32
+terrain = pyongyang
+naval_base = 1

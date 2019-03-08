@@ -1,0 +1,64 @@
+political_decisions = {
+	notre_dame_afrique = {
+		picture = notre_dame_afrique
+		potential = {
+			primary_culture = french
+			is_greater_power = yes
+			capital = 425
+			year = 1865
+			owns = 1700 #Algiers
+			NOT = { has_country_flag = bulit_notre_dame_afrique }
+		}
+		allow = {
+			impressionism = 1
+			war = no
+		}
+		
+		effect = {
+			badboy = -1
+			prestige = 5
+			set_country_flag = bulit_notre_dame_afrique
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	
+	
+	jules_ferry_laws = {
+		picture = jules_ferry
+		potential = {
+			primary_culture = french
+			is_greater_power = yes
+			capital = 425
+			year = 1870
+			NOT = { school_reforms = good_schools}
+			NOT = { has_country_flag = enacted_french_schooling	 }
+		}
+		
+		allow = {
+			OR = { 
+				biologism = 1
+				revolution_n_counterrevolution = 1
+			}
+			war = no
+		}
+		
+		effect = {
+			set_country_flag = enacted_french_schooling
+			random_owned = {
+				limit = { owner = { school_reforms = acceptable_schools } }
+				owner = { social_reform = good_schools }
+			}
+			
+			random_owned = {
+				limit = { owner = { school_reforms = low_schools } }
+				owner = { social_reform = acceptable_schools }
+			}
+			
+			random_owned = {
+				limit = { owner = { school_reforms = no_schools } }
+				owner = { social_reform = low_schools }
+			}
+		}
+	}
+}

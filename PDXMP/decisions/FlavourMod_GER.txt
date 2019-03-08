@@ -1,0 +1,86 @@
+political_decisions = {
+	build_reichstag = {
+		picture = "reichstag"
+		potential = { 
+			tag = GER
+			NOT = {
+				has_country_flag = built_reichstag
+			}
+		}
+		allow = {
+			war = no
+			is_greater_power = yes
+			revolution_n_counterrevolution = 1
+			money = 15000
+		}
+		effect = {
+			treasury = -20000
+			prestige = 12
+			any_pop = {
+				limit = {
+					is_primary_culture = yes
+					is_accepted_culture = yes
+				}
+				militancy = -0.5
+			}
+			set_country_flag = built_reichstag
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	
+	franco_prussian_war_memorial = {
+		picture = "franco_prussian_memorial"
+		potential = {
+			tag = GER
+			NOT = {
+					has_global_flag = franco_prussian_memorial
+			}
+			412 = { 
+					owned_by = THIS
+			}
+		}
+		allow = {
+			war = no
+			truce_with = FRA
+			FRA = { has_recently_lost_war = yes }
+		}
+		effect = {
+			badboy = -1
+			prestige = 5
+			any_pop = {
+				limit = { is_culture_group = THIS }
+				consciousness = -1
+			}
+			set_global_flag = franco_prussian_memorial
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	
+	
+	wilhelmshaven_imperial_shipyard = {
+		picture = wilhelmshaven_imperial_shipyard
+		potential = {
+			NOT = { has_global_flag = wilhelmshaven_imperial_shipyard_built }
+			tag = GER
+			owns = 540
+			year = 1869
+		}
+		
+		allow = {
+			is_greater_power = yes
+			invention = steamer_shipyard_construction
+			money = 51000
+		}
+		
+		effect = {
+			set_global_flag = wilhelmshaven_imperial_shipyard_built
+			treasury = -50000
+			540 = { naval_base = 6 }
+			540 = { change_province_name = "Wilhemshaven" }
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+}

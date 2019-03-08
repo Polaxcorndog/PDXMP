@@ -1,0 +1,261 @@
+CODE;ENGLISH;FRENCH;GERMAN;POLISH;SPANISH;HUNGARIAN;CZECH;HUNGARIAN;DUTCH;PORTUGUESE;RUSSIAN;FINNISH;;x;;;;;;;;;;;;;;;;
+canton;Urban;;;;;;;;x
+annecy;Montane Urban;;;;;;;;x
+kassel;Urban;;;;;;;;x
+nagasaki;Mining District;;;;;;;;x
+koblenz;Urban;;;;;;;;x
+rouen;Urban;;;;;;;;x
+lubeck;Urban;;;;;;;;x
+pozan;Urban;;;;;;;;x
+braunschweig;Urban;;;;;;;;x
+linz;Forest;;;;;;;;x
+catania;Urban Hills;;;;;;;;x
+chemnitz;Urban;;;;;;;;x
+stjohn;Taiga;;;;;;;;x
+berlin;Urban;;;;;;;;x
+paris;Urban;;;;;;;;x
+london;Urban;;;;;;;;x
+stpetersburg;Urban;;;;;;;;x
+vienna;Urban;;;;;;;;x
+newyork;Urban;;;;;;;;x
+rome;Urban;;;;;;;;x
+madrid;Urban;;;;;;;;x
+stockholm;Urban;;;;;;;;x
+istanbul;Urban;;;;;;;;x
+warsaw;Urban;;;;;;;;x
+athens;Urban;;;;;;;;x
+lisbon;Urban;;;;;;;;x
+amsterdam;Urban;;;;;;;;x
+brussels;Mining District;;;;;;;;x
+copenhagen;Urban;;;;;;;;x
+oslo;Urban Hills;;;;;;;;x
+helsinki;Urban;;;;;;;;x
+munich;Urban Hills;;;;;;;;x
+hanover;Urban;;;;;;;;x
+dublin;Urban;;;;;;;;x
+belgrade;Urban Hills;;;;;;;;x
+turin;Urban;;;;;;;;x
+naples;Urban;;;;;;;;x
+bern;Montane Grassland;;;;;;;;x
+pest;Urban;;;;;;;;x
+bukarest;Urban;;;;;;;;x
+cairo;Farmland;;;;;;;;x
+prague;Urban;;;;;;;;x
+cologne;Urban;;;;;;;;x
+mexicocity;Urban Hills;;;;;;;;x
+barcelona;Urban;;;;;;;;x
+edinburgh;Urban;;;;;;;;x
+edo;Urban;;;;;;;;x
+hanseong;Forest;;;;;;;;x
+peking;Hills;;;;;;;;x
+shanghai;Urban;;;;;;;;x
+hongkong;Urban;;;;;;;;x
+macao;Urban;;;;;;;;x
+kiev;Urban;;;;;;;;x
+riga;Urban;;;;;;;;x
+moscow;Urban;;;;;;;;x
+minsk;Urban;;;;;;;;x
+lyon;Grassland;;;;;;;;x
+dc;Urban;;;;;;;;x
+chicago;Mining District;;;;;;;;x
+sanfrancisco;Urban;;;;;;;;x
+hamburg;Urban;;;;;;;;x
+dresden;Forest;;;;;;;;x
+boston;Urban;;;;;;;;x
+sofia;Urban Hills;;;;;;;;x
+tehran;Urban Hills;;;;;;;;x
+rennes;Urban Hills;;;;;;;;x
+marseille;Urban;;;;;;;;x
+bordeaux;Urban Port;;;;;;;;x
+toulouse;Urban Hills;;;;;;;;x
+bilbao;Urban Hills;;;;;;;;x
+milan;Urban;;;;;;;;x
+luxemburg;Mining District;;;;;;;;x
+venice;Urban Port;;;;;;;;x
+zagreb;Urban Hills;;;;;;;;x
+salonika;Urban Hills;;;;;;;;x
+ankara;Urban Hills;;;;;;;;x
+tblisi;Montane Urban;;;;;;;;x
+erivan;Urban Hills;;;;;;;;x
+baku;Montane Urban;;;;;;;;x
+jerusalem;Urban Semidesert;;;;;;;;x
+baghdad;Farmland;;;;;;;;x
+damascus;Semidesert;;;;;;;;x
+lvov;Forest;;;;;;;;x
+krakow;Urban;;;;;;;;x
+karlsruhe;Urban;;;;;;;;x
+stuttgart;Urban;;;;;;;;x
+konigsberg;Farmland;;;;;;;;x
+dusseldorf;Mining District;;;;;;;;x
+dortmund;Urban;;;;;;;;x
+magdeburg;Urban;;;;;;;;x
+kiel;Canal;;;;;;;;x
+stettin;Urban Port;;;;;;;;x
+frankfurt;Urban;;;;;;;;x
+nuremberg;Urban;;;;;;;;x
+leipzig;Urban;;;;;;;;x
+breslau;Farmland;;;;;;;;x
+seville;Urban Port;;;;;;;;x
+fez;Montane Urban;;;;;;;;x
+gibraltar;Urban Port;;;;;;;;x
+ceuta;Urban;;;;;;;;x
+#melilla;Urban;;;;;;;;x
+tangier;Urban Port;;;;;;;;x
+algiers;Urban Hills;;;;;;;;x
+zurich;Montane Urban;;;;;;;;x
+strasburg;Forest;;;;;;;;x
+liverpool;Urban;;;;;;;;x
+manchester;Urban;;;;;;;;x
+cardiff;Urban;;;;;;;;x
+birmingham;Urban;;;;;;;;x
+glasgow;Urban Hills;;;;;;;;x
+southampton;Urban;;;;;;;;x
+newcastle;Mining District;;;;;;;;x
+sheffield;Mining District;;;;;;;;x
+leeds;Urban;;;;;;;;x
+bristol;Urban;;;;;;;;x
+belfast;Urban Port;;;;;;;;x
+goteborg;Urban Hills;;;;;;;;x
+vilnius;Forest;;;;;;;;x
+reval;Marsh;;;;;;;;x
+montreal;Urban;;;;;;;;x
+ottawa;Urban;;;;;;;;x
+vancouver;Montane Urban;;;;;;;;x
+losangeles;Urban Hills;;;;;;;;x
+atlanta;Montane Urban;;;;;;;;x
+philadelphia;Urban;;;;;;;;x
+cleveland;Forest;;;;;;;;x
+detroit;Urban;;;;;;;;x
+pittsburgh;Urban Hills;;;;;;;;x
+richmond;Urban;;;;;;;;x
+neworleans;Urban;;;;;;;;x
+austin;Urban;;;;;;;;x
+caen;Urban;;;;;;;;x
+lille;Urban;;;;;;;;x
+toronto;Urban;;;;;;;;x
+bogota;Urban;;;;;;;;x
+caracas;Urban;;;;;;;;x
+rio;Urban Hills;;;;;;;;x
+saopaulo;Urban Hills;;;;;;;;x
+montevideo;Grassland;;;;;;;;x
+buenosaires;Urban;;;;;;;;x
+santiago;Montane Urban;;;;;;;;x
+#asuncion;Urban;;;;;;;;x
+#lima;Urban Hills;;;;;;;;x
+quito;Montane Urban;;;;;;;;x
+#guantanamo;Montane Urban;;;;;;;;x
+lapaz;Montane Urban;;;;;;;;x
+havana;Urban Hills;;;;;;;;x
+capetown;Montane Urban;;;;;;;;x
+zanzibar;Urban Port;;;;;;;;x
+calcutta;Urban;;;;;;;;x
+pondicherry;Urban Port;;;;;;;;x
+bombay;Urban;;;;;;;;x
+delhi;Urban;;;;;;;;x
+madras;Urban Hills;;;;;;;;x
+goa;Urban Port;;;;;;;;x
+lahore;Urban;;;;;;;;x
+bangkok;Jungle;;;;;;;;x
+saigon;Urban Hills;;;;;;;;x
+hue;Farmland;;;;;;;;x
+singapore;Urban Port;;;;;;;;x
+batavia;Urban;;;;;;;;x
+sydney;Urban Hills;;;;;;;;x
+melbourne;Urban;;;;;;;;x
+perth;Forest;;;;;;;;x
+auckland;Forest;;;;;;;;x
+manila;Jungle;;;;;;;;x
+kwangchowan;Urban;;;;;;;;x
+hainan;Urban;;;;;;;;x
+ningbo;Urban Port;;;;;;;;x
+qingdao;Urban Port;;;;;;;;x
+weihaiwei;Urban Port;;;;;;;;x
+oldtianjin;Urban Port;;;;;;;;x
+portarthur;Urban Port;;;;;;;;x
+kyoto;Urban Hills;;;;;;;;x
+tashkent;Urban;;;;;;;;x
+samarkand;Dry Urban Hills;;;;;;;;x
+isfahan;Montane Urban;;;;;;;;x
+alexandria;Urban;;;;;;;;x
+tirana;Urban Hills;;;;;;;;x
+ljubljana;Urban Hills;;;;;;;;x
+bratislava;Urban Hills;;;;;;;;x
+#cluj;Urban;;;;;;;;x
+#cetinje;Urban;;;;;;;;x
+malta;Island;;;;;;;;x
+tunis;Urban;;;;;;;;x
+florence;Urban;;;;;;;;x
+danzig;Urban Port;;;;;;;;x
+nanjing;Farmland;;;;;;;;x
+mukden;Grassland;;;;;;;;x
+yokohama;Urban;;;;;;;;x
+kobe;Forest;;;;;;;;x
+osaka;Urban;;;;;;;;x
+#wuchang;Urban;;;;;;;;x
+xian;Forest;;;;;;;;x
+pyongyang;Urban;;;;;;;;x
+pusan;Urban;;;;;;;;x
+mecca;Semidesert;;;;;;;;x
+aden;Montane Urban;;;;;;;;x
+#muscat;Urban;;;;;;;;x
+lodz;Forest;;;;;;;;x
+genoa;Urban Hills;;;;;;;;x
+rostov;Steppe;;;;;;;;x
+vladivostok;Urban Hills;;;;;;;;x
+duluth;Urban Port;;;;;;;;x
+sevastopol;Urban Port;;;;;;;;x
+nikolaev;Urban;;;;;;;;x
+kerch;Montane Urban;;;;;;;;x
+kharkov;Steppe;;;;;;;;x
+saratov;Steppe;;;;;;;;x
+#chisinau;Urban;;;;;;;;x
+kazan;Forest;;;;;;;;x
+antwerp;Farmland;;;;;;;;x
+ekaterinburg;Forest;;;;;;;;x
+irkutsk;Forest;;;;;;;;x
+omsk;Forest;;;;;;;;x
+sarajevo;Urban Hills;;;;;;;;x
+timbuktu;Semidesert;;;;;;;;x
+palermo;Urban Hills;;;;;;;;x
+lhasa;Urban;;;;;;;;x
+#xining;Urban;;;;;;;;x
+kashgar;Desert;;;;;;;;x
+agra;Forest;;;;;;;;x
+katmandu;Montane Urban;;;;;;;;x
+colombo;Urban;;;;;;;;x
+gonder;Urban Hills;;;;;;;;x
+capecoast;Urban;;;;;;;;x
+grandbassam;Urban;;;;;;;;x
+monrovia;Urban;;;;;;;;x
+stlouis;Forest;;;;;;;;x
+#bissau;Urban;;;;;;;;x
+#lagos;Urban;;;;;;;;x
+suez;Canal;;;;;;;;x
+valencia;Urban;;;;;;;;x
+rotterdam;Marsh;;;;;;;;x
+hyderabad;Urban Hills;;;;;;;;x
+nagpur;Urban;;;;;;;;x
+jaipur;Urban;;;;;;;;x
+karachi;Urban Hills;;;;;;;;x
+hanoi;Urban Hills;;;;;;;;x
+dunkirk;Urban Port;;;;;;;;x
+brest;Urban Port;;;;;;;;x
+toulon;Urban Port;;;;;;;;x
+larochelle;Urban;;;;;;;;x
+hanoi;Urban Hills;;;;;;;;x
+trieste;Urban;;;;;;;;x
+pola;Urban Hills;;;;;;;;x
+wilhelmshaven;Urban Port;;;;;;;;x
+nice;Urban Hills;;;;;;;;x
+quebec;Forest;;;;;;;;x
+fort_william;Urban;;;;;;;;x
+panama;Canal;;;;;;;;x
+tripoli;Urban;;;;;;;;x
+essen;Urban;;;;;;;;x
+zadar;Urban;;;;;;;;x
+dubrovnik;Urban;;;;;;;;x
+sanmarino;Urban Hills;;;;;;;;x
+plymouth;Urban;;;;;;;;x
+portsmouth;Urban;;;;;;;;x
+liege;Mining District;;;;;;;;x
+namur;Urban;;;;;;;;x
