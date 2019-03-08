@@ -144,7 +144,6 @@ occupied = {
 nationalism = {
 	pop_militancy_modifier = 0.01
 	pop_consciousness_modifier = 0.01
-	supply_limit = -1
 }
 
 infrastructure = {
