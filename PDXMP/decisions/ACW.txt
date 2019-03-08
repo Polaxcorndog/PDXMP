@@ -1937,6 +1937,33 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 	
+	taconite_refining = {
+	picture = taconite
+		potential = {
+			tag = USA
+			year = 1895
+			NOT = { has_country_flag = taconite }
+			invention = advanced_ore_grinding_processes
+			invention = steel_alloys
+			owns = 158
+		}
+		
+		allow = {
+			owns = 158
+			war = no
+		}
+		
+		effect = {
+			set_country_flag = taconite
+			158 = {
+				add_province_modifier = {
+					name = taconite_mining
+					duration = -1
+				}
+			}
+		}
+	}
+	
 	the_mormon_exodus = {
 	picture = nauvoo_temple
 		potential = {

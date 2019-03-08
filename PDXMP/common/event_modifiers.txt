@@ -269,6 +269,7 @@ warship_commissioned = {
 high_quality_ore = {
 
 	mine_RGO_eff = 2.0
+	mine_RGO_size = 0.10
 	local_RGO_throughput = 0.2
 	icon = 13
 
@@ -278,9 +279,16 @@ high_quality_ore = {
 poor_quality_ore = {
 
 	mine_RGO_eff = -0.5
+	mine_RGO_size = -0.10
 	local_RGO_throughput = -0.1
 	icon = 14
 
+}
+
+taconite_mining = {
+	mine_RGO_size = 10.0
+	local_RGO_throughput = 0.1
+	icon = 13
 }
 
 kyoto_university = {
