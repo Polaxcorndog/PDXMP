@@ -921,8 +921,6 @@ political_decisions = {
 		picture = tea_production
 		potential = {
 			OR = {
-				any_greater_power = { invention = synthetic_dye }
-				any_neighbor_country = { invention = synthetic_dye }
 				sphere_owner = { invention = synthetic_dye }
 				overlord = { invention = synthetic_dye }
 				invention = synthetic_dye
@@ -961,7 +959,7 @@ political_decisions = {
 					controlled_by = THIS
 					owned_by = THIS
 					province_control_days = 730
-					unemployment_by_type = { type = farmers value = 0.5 }
+					unemployment_by_type = { type = farmers value = 0.4 }
 				}
 				trade_goods = silk
 			}
@@ -972,7 +970,7 @@ political_decisions = {
 					controlled_by = THIS
 					owned_by = THIS
 					province_control_days = 730
-					unemployment_by_type = { type = farmers value = 0.5 }
+					unemployment_by_type = { type = farmers value = 0.4 }
 				}
 				trade_goods = coffee
 			}
@@ -983,7 +981,7 @@ political_decisions = {
 					controlled_by = THIS
 					owned_by = THIS
 					province_control_days = 730
-					unemployment_by_type = { type = farmers value = 0.5 }
+					unemployment_by_type = { type = farmers value = 0.4 }
 				}
 				trade_goods = tropical_wood
 			}
@@ -994,7 +992,7 @@ political_decisions = {
 					controlled_by = THIS
 					owned_by = THIS
 					province_control_days = 730
-					unemployment_by_type = { type = farmers value = 0.5 }
+					unemployment_by_type = { type = farmers value = 0.4 }
 				}
 				trade_goods = tropical_wood
 			}
@@ -1005,7 +1003,7 @@ political_decisions = {
 					controlled_by = THIS
 					owned_by = THIS
 					province_control_days = 730
-					unemployment_by_type = { type = farmers value = 0.5 }
+					unemployment_by_type = { type = farmers value = 0.4 }
 				}
 				trade_goods = silk
 			}
@@ -1016,7 +1014,7 @@ political_decisions = {
 					controlled_by = THIS
 					owned_by = THIS
 					province_control_days = 730
-					unemployment_by_type = { type = farmers value = 0.5 }
+					unemployment_by_type = { type = farmers value = 0.4 }
 				}
 				trade_goods = silk
 			}
@@ -1027,7 +1025,7 @@ political_decisions = {
 					controlled_by = THIS
 					owned_by = THIS
 					province_control_days = 730
-					unemployment_by_type = { type = farmers value = 0.5 }
+					unemployment_by_type = { type = farmers value = 0.4 }
 				}
 				trade_goods = silk
 			}
@@ -1038,7 +1036,7 @@ political_decisions = {
 					controlled_by = THIS
 					owned_by = THIS
 					province_control_days = 730
-					unemployment_by_type = { type = farmers value = 0.5 }
+					unemployment_by_type = { type = farmers value = 0.4 }
 				}
 				trade_goods = silk
 			}
@@ -1071,7 +1069,7 @@ political_decisions = {
 					controlled_by = THIS
 					owned_by = THIS
 					province_control_days = 730
-					unemployment_by_type = { type = farmers value = 0.5 }
+					unemployment_by_type = { type = farmers value = 0.4 }
 				}
 				trade_goods = coal
 			}
@@ -1082,7 +1080,7 @@ political_decisions = {
 					controlled_by = THIS
 					owned_by = THIS
 					province_control_days = 730
-					unemployment_by_type = { type = farmers value = 0.5 }
+					unemployment_by_type = { type = farmers value = 0.4 }
 				}
 				trade_goods = iron
 			}
@@ -1093,7 +1091,7 @@ political_decisions = {
 					controlled_by = THIS
 					owned_by = THIS
 					province_control_days = 730
-					unemployment_by_type = { type = farmers value = 0.5 }
+					unemployment_by_type = { type = farmers value = 0.4 }
 				}
 				trade_goods = silk
 			}
@@ -1104,7 +1102,7 @@ political_decisions = {
 					controlled_by = THIS
 					owned_by = THIS
 					province_control_days = 730
-					unemployment_by_type = { type = farmers value = 0.5 }
+					unemployment_by_type = { type = farmers value = 0.4 }
 				}
 				trade_goods = silk
 			} 
