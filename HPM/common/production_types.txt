@@ -33,7 +33,7 @@ factory_template = {
 
 cheap_factory_template = {
 	efficiency = {
-		cement = 0.25 #if no cement, work at 75% efficiency #cost = £4/level
+		cement = 0.25 #if no cement, work at 75% efficiency #cost = Â£4/level
 	}
 	
 	owner = {
@@ -259,14 +259,14 @@ machine_parts_factory = {
 		coal = 5		#11.5  total input+maint = 66
 	}
 	output_goods = machine_parts 
-	value = 2.06			#75.19
+	value = 2.25			#75.19
 	bonus = {
 		trigger = { has_building = steel_factory }
-		value = 0.125
+		value = 0.15
 	}
 	bonus = {
 		trigger = { trade_goods_in_state = coal }
-		value = 0.125
+		value = 0.15
 	}
 }
 
@@ -282,6 +282,26 @@ synthetic_oil_factory = {
 		value = 0.25
 	}
 }
+
+
+synthetic_sulphur_factory = {       
+	template = factory_template
+	input_goods = { 
+		coal = 11		#25.3	
+		iron = 1		#3.5 	total input+maint = 40.2
+	}
+	output_goods = sulphur
+	value = 2.5			#15
+	bonus = {
+		trigger = { trade_goods_in_state = coal }
+		value = 0.2
+	}
+	bonus = {
+		trigger = { trade_goods_in_state = iron }
+		value = 0.05
+	}
+}
+
 
 ############# ADVANCED FACTORIES
 
@@ -308,8 +328,8 @@ steamer_shipyard = {
 	input_goods = {
 		lumber = 10		#10
 		steel = 22		#103.4
-		coal = 30		#69
-		machine_parts = 0.25 #9.125 total input+maint = ~201.35
+		coal = 25		#69
+		machine_parts = 0.25 #9.125 total input+maint = 191.125
 	}
 	output_goods = steamer_convoy 
 	is_coastal = yes
@@ -371,7 +391,7 @@ luxury_furniture_factory = {
 steel_factory = {       
 	template = factory_template
 	input_goods = { 
-		iron = 20		#70
+		iron = 18		#70
 		coal = 5		#11.5	total input+maint = 91.3
 	}
 
@@ -379,7 +399,7 @@ steel_factory = {
 	value = 22.65	#106.455
 	bonus = {
 		trigger = { trade_goods_in_state = iron }
-		value = 0.125
+		value = 0.2
 	}
 	bonus = {
 		trigger = { trade_goods_in_state = coal }
@@ -394,7 +414,7 @@ artillery_factory = {
 		steel = 8		#37.6   total input+maint = 67.6
 	}
 	output_goods = artillery 
-	value = 1.38		#82.8
+	value = 1.5		#82.8
 	bonus = {
 		trigger = { has_building = steel_factory }
 		value = 0.15
@@ -408,13 +428,13 @@ artillery_factory = {
 clipper_shipyard = {       
 	template = factory_template
 	input_goods = {         
-		fabric = 100		#180
+		fabric = 80		#180
 		lumber = 100		#100
-		steel = 30		#141		total input+maint = 430.825
+		steel = 20		#141		total input+maint = 430.825
 	}
 	output_goods = clipper_convoy 
 	is_coastal = yes
-	value = 12			#504, up from 10 with a profit of 420. 14.518% profit margin, similar to steamers.
+	value = 10			#504, up from 10 with a profit of 420. 14.518% profit margin, similar to steamers.
 	bonus = {
 		trigger = { has_building = fabric_factory }
 		value = 0.05
@@ -817,7 +837,7 @@ cotton_plantation = {
 dye_plantation = {
 	template = RGO_template_farmers
 	output_goods = dye 
-	value = 0.22
+	value = 0.24
 	farm = yes
 }
 
