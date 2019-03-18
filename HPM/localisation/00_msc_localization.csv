@@ -65,3 +65,17 @@ EVTOPTA110083;We could learn a lot.;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 EVTOPTA110092;A sad state of affairs.;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 EVTOPTB110082;No thanks.;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 EVTOPTA110082;Wonderful initiative!;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+high_quality_ore;High-Quality Iron Ore;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;,,,,,,,,,,
+EVTNAME1142;High-Quality Iron Ore Being Mined;;;;;;;;;;;;;x,,,,,,,,,,
+EVTDESC1142;The iron ore in this province is of exceptionally high quality, and produces greater yields than deposits elsewhere.;;;;;;;;;;;;;x,,,,,,,,,
+EVTOPTA1142;Let's get mining!;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;,,,,,,,,,,
+EVTNAME1143;New Iron Ore Deposits;;;;;;;;;;;;;x,,,,,,,,,,
+EVTDESC1143;Due to increasing demand for iron ore, prospectors have set out to discover new deposits and found a rich new vein in this province.;;;;;;;;;;;;;x,,,,,,,,,
+EVTOPTA1143;Let's get mining!;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;,,,,,,,,,,
+EVTNAME1145;New Cotton Plantation;;;;;;;;;;;;;x,,,,,,,,,,
+EVTDESC1145;Following the disruptions of the American Civil War and boll weevil infestation, European investors turned to areas in Africa, particularly Egypt, Mozambique, and Angola to provide a more reliable source of cotton.;;;;;;;;;;;;;x,,,,,,,,,
+EVTOPTA1145;Let's go pick some cotton!;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;,,,,,,,,,,
+poor_quality_ore;Inefficient or Outdated Mining Practices;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;,,,,,,,,,,
+EVTNAME1144;Antiquated Iron Ore Mining;;;;;;;;;;;;;x,,,,,,,,,,
+EVTDESC1144;The mining techniques in this province are practically medieval and output is severely reduced.;;;;;;;;;;;;;x,,,,,,,,,
+EVTOPTA1144;Sucks for them!;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;,,,,,,,,,,
