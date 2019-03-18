@@ -72,7 +72,7 @@ province_event = {
 			province_id = 104			# San Francisco
 			province_id = 3				# Kenai
 			province_id = 90			# San Diego
-			province_id = 695			# Königsberg
+			province_id = 695			# KÃ¶nigsberg
 			province_id = 2470			# Port Macquaire Australia
 			province_id = 2471			# Bathurst Australia
 			province_id = 2472			# Eden Australia
@@ -571,6 +571,7 @@ province_event = {
 					province_id = 43		# Dallas 1886
 					province_id = 705		# Przemysl 1886
 					province_id = 1260		# Dibrugarh 1889
+					province_id = 664		# Bucharest
 				}
 			}
 			AND = {
@@ -767,3 +768,150 @@ province_event = {
 	}
 }
 
+
+#############################
+#        IRON EVENTS        #
+#############################
+province_event = {
+	
+	id = 1142
+
+	trigger = {
+		year = 1880
+		NOT = { year = 1930 }
+		or = {
+			province_id = 157			# Moorhead
+			province_id = 158			# Duluth
+			province_id = 305			# Trondheim
+			province_id = 307			# Hammerfest
+			province_id = 319			# Ostersund
+			province_id = 320			# Umea
+			province_id = 321			# Lulea
+			province_id = 323			# Falun
+			province_id = 326			# Vasteras
+			province_id = 333			# Vaxjo
+			province_id = 395			# Liege
+			province_id = 397			# Luxembourg
+			}
+		not = { has_province_modifier = high_quality_ore }
+		trade_goods = iron
+	}
+
+	mean_time_to_happen =  {
+		months = 12
+	}
+
+	title = "EVTNAME1142"
+	desc = "EVTDESC1142"
+
+	option = {
+		name = "EVTOPTA1142"
+		add_province_modifier = {
+			name = high_quality_ore
+			duration = -1
+		}
+	}
+}
+
+province_event = {
+	
+	id = 1143
+
+	trigger = {
+		year = 1860
+		NOT = { year = 1930 }
+		or = {
+			province_id = 305			# Trondheim
+			province_id = 307			# Hammerfest
+			province_id = 320			# Umea
+			province_id = 321			# Lulea
+			province_id = 333			# Vaxjo
+			province_id = 631			# Brno
+			}
+		not = { trade_goods = iron }
+	}
+
+	mean_time_to_happen =  {
+		months = 12
+	}
+
+	title = "EVTNAME1143"
+	desc = "EVTDESC1143"
+
+	option = {
+		name = "EVTOPTA1143"
+		trade_goods = iron
+		}
+	}
+
+province_event = {
+	
+	id = 1144
+
+	trigger = {
+		year = 1836
+		NOT = { year = 1890 }
+		or = {
+			province_id = 1522			# Wuchang
+			province_id = 1528			# Yuezhou
+			province_id = 1555			# Jilin
+			province_id = 1613			# Chengde
+			province_id = 1620			# Chonchon
+			province_id = 1621			# Hamhung
+			province_id = 1626			# Haeju
+			province_id = 1627			# Sariwon
+			}
+		not = { has_province_modifier = poor_quality_ore }
+	}
+
+	mean_time_to_happen =  {
+		months = 1
+	}
+
+	title = "EVTNAME1144"
+	desc = "EVTDESC1144"
+
+	option = {
+		name = "EVTOPTA1144"
+		add_province_modifier = {
+			name = poor_quality_ore
+			duration = 18000
+		}
+	}
+}
+
+
+#############################
+#        COTTON EVENTS        #
+#############################
+
+province_event = {
+	
+	id = 1145
+
+	trigger = {
+		year = 1875
+		NOT = { year = 1930 }
+		or = {
+			province_id = 1745			# Cairo
+			province_id = 2003			# Benguela
+			province_id = 2053			# Sena
+			province_id = 2059			# Quelimane
+			province_id = 2064			# Nampula
+			province_id = 2065			# Milange
+			}
+		not = { trade_goods = cotton }
+	}
+
+	mean_time_to_happen =  {
+		months = 12
+	}
+
+	title = "EVTNAME1145"
+	desc = "EVTDESC1145"
+
+	option = {
+		name = "EVTOPTA1145"
+		trade_goods = cotton
+		}
+	}
