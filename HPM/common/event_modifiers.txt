@@ -135,8 +135,8 @@ monthly_payment_made = {
 }
 
 total_reform = {
-	education_efficiency_modifier = 0.75
-	administrative_efficiency_modifier = 0.3
+	education_efficiency_modifier = 0.5
+	administrative_efficiency_modifier = 0.2
 	land_organisation = 0.05
 	land_unit_start_experience = 1
 	mobilisation_size = 0.01
@@ -240,6 +240,15 @@ haussmanns_renovations = {
 
 warship_commissioned = {
 	icon = 9
+}
+
+high_quality_ore = {
+
+	mine_RGO_eff = 2.0
+	mine_RGO_size = 0.10
+	local_RGO_throughput = 0.2
+	icon = 13
+
 }
 
 repatriation = {
@@ -2190,7 +2199,7 @@ republican_reforms = {
 
 ### Total War System ###
 great_war = {
-	war_exhaustion = -3.0
+	war_exhaustion = -2.5
 	mobilisation_size = 0.03
 	core_pop_militancy_modifier = -0.2
 	global_population_growth = -0.001
@@ -2199,7 +2208,7 @@ great_war = {
 }
 
 great_war2 = {
-	war_exhaustion = -2.0
+	war_exhaustion = -1.75
 	global_population_growth = -0.002
 	global_immigrant_attract = -0.75
 	icon = 17
