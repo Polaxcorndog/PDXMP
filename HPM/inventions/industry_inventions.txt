@@ -828,7 +828,7 @@ advanced_ore_grinding_processes = {
 	}
 	effect = {
 		rgo_goods_output = {
-			iron = 0.25
+			iron = 0.4
 		}
 	}
 }
@@ -847,7 +847,7 @@ advanced_ore_smelting_processes = {
 	}
 	effect = {
 		rgo_goods_output = {
-			iron = 0.25
+			iron = 0.4
 		}
 	}
 }
