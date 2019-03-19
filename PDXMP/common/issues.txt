@@ -790,14 +790,14 @@ social_reforms = {
 		}
 		
 		child_labor_restricted = {
-			education_efficiency_modifier = -0.03
+			education_efficiency_modifier = -0.05
 			poor_savings_modifier = 0.05
 			RGO_throughput = 0.05
 			artisan_throughput = 0.05
 		}
 		
 		child_labor_illegal = {
-			education_efficiency_modifier = 0.02
+			education_efficiency_modifier = 0.05
 			global_immigrant_attract = 0.05
 		}
 	}
