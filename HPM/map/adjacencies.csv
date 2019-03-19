@@ -190,6 +190,13 @@ From;To;Type;Through;Data;Comment
 609;722;impassable;0;0;Sitten-Novara
 606;722;impassable;0;0;Lucerne-Novara
 
+#Pyrenees
+457;496;impassable;0;0;Foix-Huesca
+457;499;impassable;0;0;Foix-Gerona
+457;500;impassable;0;0;Foix-Lerida
+460;496;impassable;0;0;Pau-Huesca
+460;493;impassable;0;0;Pau-Pamplona
+
 #Alaskan Panhandle
 
 2;6;impassable;0;0;
