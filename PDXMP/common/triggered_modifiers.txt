@@ -296,6 +296,8 @@ the_british_raj = {
 	}
 	research_points = 0.5
 	core_pop_militancy_modifier = -0.01
+	mobilisation_size = -0.05
+	tax_efficiency = -0.1
 	prestige = 0.03
 	icon = 19
 }
@@ -314,6 +316,7 @@ dutch_east_india = {
 		}
 	}
 	prestige = 0.01
+	research_points = 0.1
 	icon = 19
 }
 
