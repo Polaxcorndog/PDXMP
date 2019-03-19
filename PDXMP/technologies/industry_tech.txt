@@ -109,11 +109,11 @@ compound_steam_engines = {
 	year = 1836
 	cost = 10800
 
-	rgo_goods_output = { coal = 0.1 }
-	rgo_goods_output = { iron = 0.1 }
-	rgo_goods_output = { oil = 0.1 }
+	rgo_goods_output = { coal = 0.15 }
+	rgo_goods_output = { iron = 0.15 }
+	rgo_goods_output = { oil = 0.15 }
 	rgo_goods_output = { precious_metal = 0.1 }
-	rgo_goods_output = { sulphur = 0.1 }
+	rgo_goods_output = { sulphur = 0.15 }
 	farm_rgo_eff = 0.15
 	ai_chance = {
 		factor = 2
@@ -161,11 +161,11 @@ steam_turbine = {
 	year = 1850
 	cost = 14400
 
-	rgo_goods_output = { coal = 0.15 }
-	rgo_goods_output = { iron = 0.15 }
-	rgo_goods_output = { oil = 0.15 }
+	rgo_goods_output = { coal = 0.25 }
+	rgo_goods_output = { iron = 0.25 }
+	rgo_goods_output = { oil = 0.25 }
 	rgo_goods_output = { precious_metal = 0.15 }
-	rgo_goods_output = { sulphur = 0.15 }
+	rgo_goods_output = { sulphur = 0.25 }
 	farm_rgo_eff = 0.15
 	ai_chance = {
 		factor = 2
@@ -217,11 +217,11 @@ combustion_engine = {
 	year = 1880
 	cost = 18000
 
-	rgo_goods_output = { coal = 0.15 }
-	rgo_goods_output = { iron = 0.15 }
-	rgo_goods_output = { oil = 0.15 }
+	rgo_goods_output = { coal = 0.25 }
+	rgo_goods_output = { iron = 0.25 }
+	rgo_goods_output = { oil = 0.25 }
 	rgo_goods_output = { precious_metal = 0.15 }
-	rgo_goods_output = { sulphur = 0.15 }
+	rgo_goods_output = { sulphur = 0.25 }
 	farm_rgo_eff = 0.15
 	ai_chance = {
 		factor = 3
@@ -984,7 +984,7 @@ bessemer_process = {
 		coal = 0.3
 	}
 	rgo_goods_output = {
-		iron = 0.25
+		iron = 0.60
 	}
 	rgo_size = {
 		precious_metal = 0.3
@@ -1132,7 +1132,7 @@ advanced_metallurgy = {
 		coal = 0.5 #was 0.3
 	}
 	rgo_goods_output = {
-		iron = 0.4
+		iron = 0.65
 	}
 	rgo_size = {
 		sulphur = 0.4
