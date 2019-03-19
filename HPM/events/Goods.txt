@@ -528,6 +528,74 @@ province_event = {
 	}
 }
 
+province_event = {
+	
+	id = 1108
+
+	trigger = {
+		year = 1880
+		NOT = { year = 1910 }
+		or = {
+			province_id = 2402			# Manaus
+			province_id = 2404			# Tefe
+			province_id = 2405			# Borba
+			province_id = 2549			# Tarauca
+			}
+		not = { has_province_modifier = high_quality_ore }
+		trade_goods = rubber
+	}
+
+	mean_time_to_happen =  {
+		months = 12
+	}
+
+	title = "EVTNAME1108"
+	desc = "EVTDESC1108"
+
+	option = {
+		name = "EVTOPTA1108"
+		add_province_modifier = {
+			name = high_quality_rubber
+			duration = 7200
+		}
+	}
+}
+
+province_event = {
+	
+	id = 1110
+
+	trigger = {
+		year = 1900
+		NOT = { year = 1936 }
+		or = {
+			province_id = 1385			# Tanjung Puteri
+			province_id = 1387			# Kelang
+			province_id = 1389			# Alor Setar
+			province_id = 1390			# Kuantan
+			province_id = 1391			# Kota Kubang Labu
+			province_id = 2575			# Ipoh
+			}
+		not = { has_province_modifier = high_quality_rubber }
+		trade_goods = rubber
+	}
+
+	mean_time_to_happen =  {
+		months = 24
+	}
+
+	title = "EVTNAME1110"
+	desc = "EVTDESC1110"
+
+	option = {
+		name = "EVTOPTA1110"
+		add_province_modifier = {
+			name = high_quality_rubber
+			duration = -1
+		}
+	}
+}
+
 ############################
 #        OIL EVENTS        #
 ############################
@@ -768,6 +836,37 @@ province_event = {
 	}
 }
 
+province_event = {
+	
+	id = 1111
+
+	trigger = {
+		year = 1890
+		NOT = { year = 1936 }
+		or = {
+			province_id = 1102			# Baku
+			province_id = 1104			# Sheki
+			province_id = 1107			# Lankaran
+			}
+		not = { has_province_modifier = high_quality_oil }
+		trade_goods = oil
+	}
+
+	mean_time_to_happen =  {
+		months = 24
+	}
+
+	title = "EVTNAME1111"
+	desc = "EVTDESC1111"
+
+	option = {
+		name = "EVTOPTA1111"
+		add_province_modifier = {
+			name = high_quality_oil
+			duration = -1
+		}
+	}
+}
 
 #############################
 #        IRON EVENTS        #
