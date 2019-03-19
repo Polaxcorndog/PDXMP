@@ -242,15 +242,6 @@ warship_commissioned = {
 	icon = 9
 }
 
-high_quality_ore = {
-
-	mine_RGO_eff = 2.0
-	mine_RGO_size = 0.10
-	local_RGO_throughput = 0.2
-	icon = 13
-
-}
-
 repatriation = {
 	farm_rgo_size = 3.0
 	mine_rgo_size = 3.0
@@ -2408,4 +2399,33 @@ emergency_tax_measures2 = {
 	global_pop_consciousness_modifier = 0.10
 	global_pop_militancy_modifier = 0.10
 	icon = 10
+}
+
+### RGO Boosts ###
+
+high_quality_ore = {
+
+	mine_RGO_eff = 2.0
+	mine_RGO_size = 0.10
+	local_RGO_throughput = 0.2
+	icon = 13
+
+}
+
+high_quality_rubber = {
+
+	mine_RGO_eff = 2.0
+	mine_RGO_size = 0.10
+	local_RGO_throughput = 0.2
+	icon = 13
+
+}
+
+high_quality_oil = {
+
+	mine_RGO_eff = 2.0
+	mine_RGO_size = 0.10
+	local_RGO_throughput = 0.2
+	icon = 13
+
 }
