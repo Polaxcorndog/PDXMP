@@ -961,6 +961,7 @@ province_event = {
 			province_id = 1627			# Sariwon
 			}
 		not = { has_province_modifier = poor_quality_ore }
+		not = { owner = { civilized = yes } }
 	}
 
 	mean_time_to_happen =  {
