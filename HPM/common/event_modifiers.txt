@@ -1500,7 +1500,7 @@ local_tractors = {
 }
 
 local_nitroglycerin_and_machine_tools = {
-	mine_RGO_eff = 0.6
+	mine_RGO_eff = 0.75
 	mine_RGO_size = 0.5
 	icon = 13
 }
