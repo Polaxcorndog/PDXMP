@@ -79,3 +79,5 @@ poor_quality_ore;Inefficient or Outdated Mining Practices;;;;;;;;;;;;;;;;;;;;;;;
 EVTNAME1144;Antiquated Iron Ore Mining;;;;;;;;;;;;;x,,,,,,,,,,
 EVTDESC1144;The mining techniques in this province are practically medieval and output is severely reduced.;;;;;;;;;;;;;x,,,,,,,,,
 EVTOPTA1144;Sucks for them!;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;,,,,,,,,,,
+high_quality_rubber;Rubber Boom;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;,,,,,,,,,,
+high_quality_oil;Gushing Oil;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;,,,,,,,,,,
