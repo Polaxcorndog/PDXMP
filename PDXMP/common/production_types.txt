@@ -291,13 +291,13 @@ synthetic_sulphur_factory = {
 		iron = 1		#3.5 	total input+maint = 40.2
 	}
 	output_goods = sulphur
-	value = 2.5			#15
+	value = 7.5			#15
 	bonus = {
 		trigger = { trade_goods_in_state = coal }
 		value = 0.2
 	}
 	bonus = {
-		trigger = { trade_goods_in_state = iron }
+		trigger = { has_building = steel_factory }
 		value = 0.05
 	}
 }
