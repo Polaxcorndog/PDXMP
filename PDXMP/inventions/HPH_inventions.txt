@@ -70,10 +70,12 @@ helmet_mass_production = {
 	effect = {
 		soldier_to_pop_loss = 0.01
 		infantry = {
-			defence = 0.5
+			attack = 1
+			defence = 1
 		}
 		guard = {
-			defence = 0.5
+			attack = 1
+			defence = 1
 		}
 		engineer = {
 			defence = 0.5
