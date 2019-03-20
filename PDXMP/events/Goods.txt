@@ -541,7 +541,7 @@ province_event = {
 			province_id = 2405			# Borba
 			province_id = 2549			# Tarauca
 			}
-		not = { has_province_modifier = high_quality_ore }
+		not = { has_province_modifier = high_quality_rubber }
 		trade_goods = rubber
 	}
 
