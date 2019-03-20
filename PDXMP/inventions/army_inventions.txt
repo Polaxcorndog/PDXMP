@@ -296,12 +296,12 @@ gas_defense_capability = {
 	chance = {
 		base = 0
 		modifier = {
-			factor = 5
+			factor = 15
 			war = yes
 			war_countries = { invention = gas_attack_capability }
 		}
 		modifier = {
-			factor = 1
+			factor = 5
 			any_neighbor_country = { invention = gas_attack_capability }
 		}
 	}
