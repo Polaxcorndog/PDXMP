@@ -703,24 +703,32 @@ social_reforms = {
 			global_population_growth = 0.001
 			administrative_multiplier = 1
 			global_immigrant_attract = 0.01
+			pension_level = 0.1
+			min_social_spending = 0.1
 			allow = { has_country_flag = medicine_invented }
 		}
 		low_health_care = {
 			global_population_growth = 0.002
 			administrative_multiplier = 2
 			global_immigrant_attract = 0.02
+			pension_level = 0.2
+			min_social_spending = 0.2
 			allow = { has_country_flag = germs_invented }
 		}
 		acceptable_health_care = {
 			global_population_growth = 0.003
 			administrative_multiplier = 3
 			global_immigrant_attract = 0.03
+			pension_level = 0.3
+			min_social_spending = 0.3
 			allow = { has_country_flag = gaslights_invented }
 		}
 		good_health_care = {
 			global_population_growth = 0.004
 			administrative_multiplier = 4
 			global_immigrant_attract = 0.04
+			pension_level = 0.4
+			min_social_spending = 0.4
 			allow = { has_country_flag = electricity_invented }
 		}
 	}
@@ -736,6 +744,7 @@ social_reforms = {
 			global_assimilation_rate = 0.002
 			global_immigrant_attract = 0.02
 			pension_level = 0.1
+			min_social_spending = 0.1
 			administrative_multiplier = 1
 		}
 		acceptable_schools = {
@@ -743,6 +752,7 @@ social_reforms = {
 			global_assimilation_rate = 0.005
 			global_immigrant_attract = 0.03
 			pension_level = 0.2
+			min_social_spending = 0.2
 			administrative_multiplier = 2
 		}
 		good_schools = {
@@ -750,6 +760,7 @@ social_reforms = {
 			global_assimilation_rate = 0.01
 			global_immigrant_attract = 0.04
 			pension_level = 0.3
+			min_social_spending = 0.3
 			administrative_multiplier = 3
 		}
 	}
