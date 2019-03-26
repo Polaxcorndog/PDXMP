@@ -1,3 +1,3 @@
-name = "PDXMP Mod 0.1"
+name = "PDXMP Mod 0.1.1"
 path = "mod/PDXMP"
 user_dir = "PDXMP"
