@@ -15,8 +15,15 @@ SUMMARY FOR PLAYERS
 - Colonial and treaty port CBs require certain techs to unlock (HPM v0.4 change, not mine, see ModDB for more info)
 - Cotton, rubber, and oil will be a bit more evenly distributed across historical production areas
 
+FULL CHANGELOG 0.1.1
 
-FULL CHANGELOG
+- Fixed Transfer CB CTD (oops)
+- Reduced Cut Down To Size Infamy cost (9 infamy down from 13)
+- Constitutiona Monarchies can no longer switch parties (Bug, wasnt working as intended)
+- Social reforms such as education, and healthcare now carry minimum social spending costs (10% per level, total of 80% for maxed reforms.)
+- Taking Core Territory, is now cheaper. (50% down from 70% cost)
+
+FULL CHANGELOG 0.1
 
 Incorporated all changes to “defines.lua” from last version, including:
 
