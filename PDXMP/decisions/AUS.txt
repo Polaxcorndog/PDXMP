@@ -578,54 +578,229 @@ political_decisions = {
 		}
 	}
 	
+	seek_hungarian_approval = {
+		picture = propose_danube_federation
+		potential = {
+			tag = KUK
+			has_global_flag = proposed_danube_federation
+			}
+						
+		allow = {
+			war = no
+			OR = {
+				government = democracy
+				government = hms_government
+			}
+			NOT = {
+				average_militancy = 4
+				num_of_revolts = 1
+				has_country_modifier = administrative_integration
+			}
+			HUN = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+					}
+				}
+			}
+		}
+		effect = {
+		set_global_flag = full_hungarian_approval
+			any_pop = {
+				limit = { has_pop_culture = hungarian }
+				militancy = 6
+			}
+		add_country_modifier = {
+			name = administrative_integration
+			duration = 730
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	seek_croatian_approval = {
+		picture = propose_danube_federation
+		potential = {
+			tag = KUK
+			has_global_flag = proposed_danube_federation
+			}
+						
+		allow = {
+			war = no
+			OR = {
+				government = democracy
+				government = hms_government
+			}
+			NOT = {
+				average_militancy = 4
+				num_of_revolts = 1
+				has_country_modifier = administrative_integration
+			}
+			CRO = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+					}
+				}
+			}
+		}
+		effect = {
+		set_global_flag = full_croatian_approval
+			any_pop = {
+				limit = { has_pop_culture = croat }
+				militancy = 6
+			}
+			add_country_modifier = {
+			name = administrative_integration
+			duration = 730
+			}
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	seek_czech_approval = {
+		picture = propose_danube_federation
+		potential = {
+			tag = KUK
+			has_global_flag = proposed_danube_federation
+			}
+						
+		allow = {
+			war = no
+			OR = {
+				government = democracy
+				government = hms_government
+			}
+			NOT = {
+				average_militancy = 4
+				num_of_revolts = 1
+				has_country_modifier = administrative_integration
+			}
+			BOH = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+					}
+				}
+			}
+		}
+		effect = {
+		set_global_flag = full_czech_approval
+			any_pop = {
+				limit = { has_pop_culture = czech }
+				militancy = 6
+			}
+			add_country_modifier = {
+			name = administrative_integration
+			duration = 730
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	seek_slovene_approval = {
+		picture = propose_danube_federation
+		potential = {
+			tag = KUK
+			has_global_flag = proposed_danube_federation
+			}
+						
+		allow = {
+			war = no
+			OR = {
+				government = democracy
+				government = hms_government
+			}
+			NOT = {
+				average_militancy = 4
+				num_of_revolts = 1
+				has_country_modifier = administrative_integration
+			}
+			SLO = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+					}
+				}
+			}
+		}
+		effect = {
+		set_global_flag = full_slovene_approval
+			any_pop = {
+				limit = { has_pop_culture = slovene }
+				militancy = 6
+			}
+			add_country_modifier = {
+			name = administrative_integration
+			duration = 730
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	seek_slovakian_approval = {
+		picture = propose_danube_federation
+		potential = {
+			tag = KUK
+			has_global_flag = proposed_danube_federation
+			}
+						
+		allow = {
+			war = no
+			OR = {
+				government = democracy
+				government = hms_government
+			}
+			NOT = {
+				average_militancy = 4
+				num_of_revolts = 1
+				has_country_modifier = administrative_integration
+			}
+			SLV = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+					}
+				}
+			}
+		}
+		effect = {
+		set_global_flag = full_slovakian_approval
+			any_pop = {
+				limit = { has_pop_culture = slovak }
+				militancy = 6
+			}
+			add_country_modifier = {
+			name = administrative_integration
+			duration = 730
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+			
 	become_danube_federation = {
 		picture = propose_danube_federation
 		potential = {
 			tag = KUK
 			owns = 619
 			owns = 641
-			has_country_flag = danube_proposal_in_progress
-			OR = {
-				has_global_flag = full_hungarian_approval
-				has_global_flag = partial_hungarian_approval
-				has_global_flag = no_hungarian_approval
-			}
-			OR = {
-				has_global_flag = full_czech_approval
-				has_global_flag = partial_czech_approval
-				has_global_flag = no_czech_approval
-				NOT = { any_owned_province = { is_core = BOH } }
-			}
-			OR = {
-				has_global_flag = full_romanian_approval
-				has_global_flag = partial_romanian_approval
-				has_global_flag = no_romanian_approval
-				NOT = { any_owned_province = { is_core = ROM } }
-			}
-			OR = {
-				has_global_flag = full_croatian_approval
-				has_global_flag = partial_croatian_approval
-				has_global_flag = no_croatian_approval
-				NOT = { any_owned_province = { is_core = CRO } }
-			}
-			OR = {
-				has_global_flag = full_slovene_approval
-				has_global_flag = partial_slovene_approval
-				has_global_flag = no_slovene_approval
-				NOT = { any_owned_province = { is_core = SLO } }
-			}
-			OR = {
-				has_global_flag = full_slovakian_approval
-				has_global_flag = partial_slovakian_approval
-				has_global_flag = no_slovakian_approval
-				NOT = { any_owned_province = { is_core = SLV } }
-			}
-			OR = {
-				has_global_flag = full_polish_approval
-				has_global_flag = partial_polish_approval
-				has_global_flag = no_polish_approval
-				NOT = { any_owned_province = { is_core = POL } }
-			}
+			has_global_flag = full_czech_approval
+			has_global_flag = full_croatian_approval
+			has_global_flag = full_slovene_approval
+			has_global_flag = full_slovakian_approval
+			has_global_flag = full_hungarian_approval
 		}
 		
 		allow = {
@@ -637,6 +812,7 @@ political_decisions = {
 			NOT = {
 				average_militancy = 4
 				num_of_revolts = 1
+				has_country_modifier = administrative_integration
 			}
 		}
 		

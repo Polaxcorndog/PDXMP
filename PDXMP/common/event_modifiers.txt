@@ -2,6 +2,14 @@
 # scriptable and usable for event-system below.
 ##################################################################################################
 
+administrative_integration = {
+	global_pop_consciousness_modifier = 0.01
+	global_pop_militancy_modifier = 0.01
+	administrative_efficiency_modifier = -0.2
+	tax_efficiency = -0.2
+	icon = 4
+}
+
 homeland_productive_year = {
 	farm_RGO_eff = 0.25
 	pop_militancy_modifier = -0.01
